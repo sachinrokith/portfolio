@@ -1,0 +1,10 @@
+{
+  "name": "portfolio-management-system",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "predeploy": "npm --prefix frontend run predeploy",
+    "deploy": "npm --prefix frontend run deploy"
+  }
+}
