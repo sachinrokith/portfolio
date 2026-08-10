@@ -9,4 +9,6 @@ export interface Testimonial { id: string; name: string; company: string; rating
 export interface GalleryAlbum { id: string; name: string; imageIds: string[] }
 export interface Profile { name: string; designation: string; tagline: string; summary: string; about: string; email: string; phone: string; address: string; website: string; linkedin: string; github: string; twitter: string; instagram: string; youtube: string; profileImage?: string; coverImage?: string; logo?: string; accent: string }
 export interface Settings { theme: Theme; fontSize: 'small' | 'medium' | 'large'; animations: boolean }
-export interface PortfolioData { profile: Profile; skills: Skill[]; projects: Project[]; experiences: Experience[]; certifications: Certification[]; testimonials: Testimonial[]; messages: Message[]; assets: Asset[]; albums: GalleryAlbum[]; resumes: string[]; coverLetters: string[]; settings: Settings; activity: string[] }
+export interface TechnologyGroup { title: string; accent: 'blue' | 'violet'; items: { icon: string; name: string }[] }
+export interface TechnologyShowcaseData { groups: TechnologyGroup[]; libraryLabel: string; libraryTitle: string; technologies: string[] }
+export interface PortfolioData { profile: Profile; skills: Skill[]; projects: Project[]; experiences: Experience[]; certifications: Certification[]; testimonials: Testimonial[]; messages: Message[]; assets: Asset[]; albums: GalleryAlbum[]; resumes: string[]; coverLetters: string[]; settings: Settings; activity: string[]; technologyShowcase: TechnologyShowcaseData }

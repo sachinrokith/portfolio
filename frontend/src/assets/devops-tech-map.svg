@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" role="img" aria-label="DevOps technology map">
+  <defs>
+    <radialGradient id="core" cx="36%" cy="28%"><stop stop-color="#bcaaff"/><stop offset=".35" stop-color="#7351dc"/><stop offset=".78" stop-color="#251260"/><stop offset="1" stop-color="#10072e"/></radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow stdDeviation="6" flood-color="#6c4de7" flood-opacity=".65"/></filter>
+    <style>.ring{fill:none;stroke-width:3}.node{filter:url(#soft)}.node text{font:800 10px Inter,Arial,sans-serif;fill:#fff;text-anchor:middle;dominant-baseline:middle}.label{font:700 11px Inter,Arial,sans-serif;fill:#c9ceff;letter-spacing:.08em}.orbit{transform-origin:350px 350px}.o1{animation:spin 23s linear infinite}.o2{animation:spin 31s linear infinite reverse}.o3{animation:spin 43s linear infinite}.spark{animation:blink 2.5s ease-in-out infinite}@keyframes spin{to{transform:rotate(360deg)}}@keyframes blink{50%{opacity:.32}}@media(prefers-reduced-motion:reduce){.orbit,.spark{animation:none}}</style>
+  </defs>
+  <circle cx="350" cy="350" r="338" fill="#060b20"/>
+  <g opacity=".48"><circle cx="82" cy="91" r="1.4" fill="#fff"/><circle cx="125" cy="544" r="1" fill="#a992ff"/><circle cx="608" cy="114" r="1.2" fill="#fff"/><circle cx="583" cy="584" r="1" fill="#8ec9ff"/><circle cx="102" cy="308" r="1" fill="#fff"/><circle cx="496" cy="76" r="1.2" fill="#a992ff"/></g>
+  <circle class="ring" cx="350" cy="350" r="98" stroke="#7045d6" opacity=".62"/><circle class="ring" cx="350" cy="350" r="173" stroke="#3475dd" opacity=".55"/><circle class="ring" cx="350" cy="350" r="247" stroke="#00a5bd" opacity=".42"/>
+  <circle class="ring" cx="350" cy="350" r="122" stroke="#5b4ba9" opacity=".18"/><circle class="ring" cx="350" cy="350" r="143" stroke="#5b4ba9" opacity=".15"/>
+  <g class="orbit o1"><g class="node" transform="translate(350 252)"><circle r="25" fill="#7049da" stroke="#bdaaff"/><text y="1">K8S</text></g><g class="node" transform="translate(350 523)"><circle r="25" fill="#286dc5" stroke="#9ed3ff"/><text y="1">GIT</text></g></g>
+  <g class="orbit o2"><g class="node" transform="translate(523 350)"><circle r="26" fill="#e17632" stroke="#ffbe92"/><text y="1">AWS</text></g><g class="node" transform="translate(177 350)"><circle r="26" fill="#8d56d8" stroke="#d7bdff"/><text y="1">TF</text></g></g>
+  <g class="orbit o3"><g class="node" transform="translate(350 103)"><circle r="28" fill="#2b8ac5" stroke="#a5e1ff"/><text y="1">DOCK</text></g><g class="node" transform="translate(597 350)"><circle r="28" fill="#d84d47" stroke="#ffbbb4"/><text y="1">CI/CD</text></g><g class="node" transform="translate(103 350)"><circle r="28" fill="#4caa70" stroke="#bff5cf"/><text y="1">MON</text></g></g>
+  <g filter="url(#glow)"><circle cx="350" cy="350" r="91" fill="#6b49dc" opacity=".22"/><circle cx="350" cy="350" r="70" fill="url(#core)" stroke="#b5a2ff" stroke-width="2"/></g>
+  <text x="350" y="338" text-anchor="middle" class="label" fill="#d2c8ff">DEVOPS</text><text x="350" y="362" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="900" fill="#fff">STACK</text><text x="350" y="383" text-anchor="middle" class="label" font-size="9" fill="#b7a9ee">PLATFORM CORE</text>
+  <g class="spark"><circle cx="143" cy="146" r="5" fill="#7e67ef"/><circle cx="558" cy="161" r="4" fill="#5cb8ee"/><circle cx="549" cy="544" r="5" fill="#8a70eb"/><circle cx="163" cy="532" r="4" fill="#37bb9a"/></g>
+  <rect x="256" y="42" width="188" height="48" rx="24" fill="#08142a" stroke="#213b66"/><text x="350" y="72" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="800" fill="#fff">PLATFORM ENGINEERING</text>
+</svg>
